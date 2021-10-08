@@ -1,11 +1,11 @@
 body {
   text-align: center;
-  background-color: #6D8299;
+  background-color:aqua;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #0ee23c;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #fbd46d;
 
@@ -50,7 +50,7 @@ footer {
 }
 
 .game-over {
-  background-color: red;
+  background-color: rgb(255, 0, 98);
   opacity: 0.8;
 }
 
@@ -60,7 +60,7 @@ footer {
 }
 
 .red {
-  color: red;
+  color: rgb(208, 255, 0);
 }
 
 .drum {
