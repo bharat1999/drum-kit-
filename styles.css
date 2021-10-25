@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 8vmin;
   color: #0a0a0a;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #070bf5;
@@ -79,4 +79,10 @@ footer {
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+
+footer
+{
+  color:black;
 }
