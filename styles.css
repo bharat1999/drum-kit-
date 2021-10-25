@@ -49,19 +49,13 @@ footer {
   margin: 10% auto;
 }
 
-.game-over {
-  background-color: rgb(255, 0, 98);
-  opacity: 0.8;
-}
 
 .pressed {
   box-shadow: 0 3px 4px 0 #0d0d0e;
   opacity: 0.5;
 }
 
-.red {
-  color: rgb(208, 255, 0);
-}
+
 
 .drum {
   outline: none;
@@ -70,7 +64,7 @@ footer {
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #fbd46d;
+  color:blue;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   display: inline-block;
