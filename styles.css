@@ -14,7 +14,10 @@ h1 {
 }
 
 footer {
-  margin-top: 50vmin;
+  background-color: cornsilk;
+  margin-top: 53vmin;
+  margin-bottom: 0;
+  padding: 1vmin auto;
   color: #DBEDF3;
   font-family: sans-serif;
 }
