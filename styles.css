@@ -1,6 +1,7 @@
 body {
+  font-weight: 200;
   text-align: center;
-  background-color:aqua;
+  background-color: aqua;
   padding: 0;
   margin: 0;
 }
@@ -10,63 +11,54 @@ h1 {
   color: #0a0a0a;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #070bf5;
-
 }
 
 footer {
-  background-color: cornsilk;
+  background-color: #f2f2f2;
   margin-top: 53vmin;
   margin-bottom: 0;
   padding: 1vmin auto;
-  color: #DBEDF3;
+  color: #dbedf3;
   font-family: sans-serif;
 }
 
-.w 
-{ 
-  background-image:url(images/tom1.png);
-}  
+.w {
+  background-image: url(images/tom1.png);
+}
 
 .a {
-  background-image:url(images/tom2.png);
+  background-image: url(images/tom2.png);
 }
 
 .s {
-  background-image:url(images/tom3.png);
+  background-image: url(images/tom3.png);
 }
 
 .d {
-  background-image:url(images/tom4.png);
+  background-image: url(images/tom4.png);
 }
 
 .j {
-  background-image:url(images/crash.png);
+  background-image: url(images/crash.png);
 }
 
 .k {
-  background-image:url(images/kick.png);
+  background-image: url(images/kick.png);
 }
 
 .l {
-  background-image:url(images/snare.png);
+  background-image: url(images/snare.png);
 }
-
-
-
-
-
-
-
 
 .drum {
   outline: none;
-  border: 10px solid #404B69;
+  border: 10px solid #404b69;
   font-size: 5rem;
-  font-family: 'Arvo', cursive;
+  font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
-  color:blue;
-  text-shadow: 3px 0 #DBEDF3;
+  color: blue;
+  text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -76,8 +68,6 @@ footer {
   background-color: white;
 }
 
-
-footer
-{
-  color:black;
+footer {
+  color: black;
 }
