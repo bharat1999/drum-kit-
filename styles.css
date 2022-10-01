@@ -1,16 +1,16 @@
 body {
   font-weight: 200;
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(10, 54, 54);
   padding: 0;
   margin: 0;
 }
 
 h1 {
   font-size: 8vmin;
-  color: #0a0a0a;
+  color: #bb05e9;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #070bf5;
+  text-shadow: 3px 0 rgb(7, 205, 245) 29, 58, 245, 7;
 }
 
 footer {
@@ -57,7 +57,7 @@ footer {
   font-family: "Arvo", cursive;
   line-height: 2;
   font-weight: 900;
-  color: blue;
+  color: rgb(229, 255, 0);
   text-shadow: 3px 0 #dbedf3;
   border-radius: 15px;
   display: inline-block;
@@ -69,5 +69,5 @@ footer {
 }
 
 footer {
-  color: black;
+  color: rgb(6, 129, 35);
 }
