@@ -1,25 +1,44 @@
 body {
   font-weight: 200;
   text-align: center;
-  background-color: aqua;
+  background: url('https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   padding: 0;
   margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.over-lay {
+  background: rgba(255, 0255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
 h1 {
   font-size: 8vmin;
   color: #0a0a0a;
-  font-family: "Arvo", cursive;
+  font-family: 'Arvo', cursive;
   text-shadow: 3px 0 #070bf5;
 }
 
-footer {
-  background-color: #f2f2f2;
-  margin-top: 53vmin;
-  margin-bottom: 0;
-  padding: 1vmin auto;
-  color: #dbedf3;
+footer p {
+  position: sticky;
+  top: 100%;
+  bottom: 0;
+  padding: 1rem;
+  text-align: center;
   font-family: sans-serif;
+  background: #404b69;
+  color: white;
 }
 
 .w {
@@ -54,7 +73,7 @@ footer {
   outline: none;
   border: 10px solid #404b69;
   font-size: 5rem;
-  font-family: "Arvo", cursive;
+  font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
   color: blue;
