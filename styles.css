@@ -71,3 +71,6 @@ footer {
 footer {
   color: black;
 }
+button{
+  cursor: pointer;
+}
